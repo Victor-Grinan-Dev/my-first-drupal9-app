@@ -1,0 +1,6 @@
+name: Second module
+type: module
+description: my second module ever
+package: custom
+version: 1.0.0
+core_version_requirement: ^8 || ^9

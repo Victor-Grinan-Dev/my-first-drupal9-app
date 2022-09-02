@@ -1,0 +1,25 @@
+
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+* Implementation of hook_link().
+*/
+
+function drivingforce_features_link($type, $node = NULL, $teaser = FALSE) {
+  $links = array();
+ 
+  if ($type == 'node' && $node->type == 'story' && is_numeric(arg(1))) {
+    $links['node_top'] = array(
+      'title' => t('Top'),
+      // link node back to itself - path module will sort out any aliases for us
+      'href' => 'node/' . $node->nid,
+      // this line will properly attach #top-anchor to the end of our URL
+      'fragment' => 'top-anchor',
+      'attributes' => array('title' => t("Jump back to the top of the page.")),
+    );
+  }
+ 
+  return $links;
+}

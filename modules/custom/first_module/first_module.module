@@ -1,0 +1,26 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/** Implements hook_help()
+
+ */
+
+function first_module_help($route_name, RouteMatchInterface $route_match)
+{
+    switch ($route_name) {
+        case 'help.page.first_module':
+            $output = '';
+            $output = '<h3>' . t('about') . '</h3>';
+            $output = '<p>' . t('this ios the first hook module') . '</p>';
+            return $output;
+
+        default:
+            # code...
+            break;
+    }
+}
+
+/**clear the cache and refresh the page
+ * 
+ */

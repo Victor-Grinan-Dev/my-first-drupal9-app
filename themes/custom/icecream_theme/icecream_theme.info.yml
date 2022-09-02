@@ -1,0 +1,15 @@
+name: Icecream theme
+type: theme
+description: A very basic custom theme
+base theme: stable
+core_version_requirement: ^8 || ^9
+version: 1.0.0 #semantic version, semVer.
+
+libraries:
+  - icecream_theme/global
+regions:
+  header: header
+  menu: menu
+  content: content
+  sidebar: sidebar
+  footer: footer

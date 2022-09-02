@@ -1,0 +1,190 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&family=Bungee&family=Unica+One&display=swap');
+
+:root{
+    --background: #313131;
+    --my-yellow:yellow; 
+    --my-orange: orange;
+    --my-red: tomato;
+    --my-blue1:darkblue;
+    --my-blue12: lightblue;
+
+
+    --militar-font: 'Big Shoulders Stencil Text', cursive;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--militar-font);
+    /*
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+*/
+
+
+body{
+    background-color: var(--background);
+    color: var(--my-orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: var(--my-red);
+    text-decoration: none;
+}
+
+#header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+}
+
+#header div div a img{
+    width: 50px;
+}
+*/
+
+
+#block-icecream-theme-site-branding{
+    size: 50px;
+}
+
+#menu{
+    background-color: var(--background);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content{
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sidebar{
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer{
+    height: 5vh;
+    margin-top: 33vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+#content {
+  padding-bottom: 50px;
+}
+#footer {
+  padding: 60px;
+  text-align: center;
+  background: grey;
+  color: white;
+  font-size: 30px;
+} */
+
+body{
+    margin: 0;
+    font-family: 'Open Sans';
+    overflow-x:hidden;
+  
+  }
+  a, a:active, a:hover, a:visited{
+    text-decoration: none;
+    /* color: #000; */
+  }
+  ul, ol{
+    list-style-type: none;
+  }
+  header{
+    background: #1abc9c;
+  }
+  .content{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .footer{
+    position: relative;
+    height: 150px;
+    width: 100%;
+    background-color: #13171c;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+  }
+  #block-icecream-theme-branding a{
+    font-size: 20px;
+    color: #fff;
+  }
+  .heading{
+    color: #fff;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #block-icecream-theme-main-menu ul{
+    z-index: 5;
+    width: 80%;
+    display: inline-block;
+  }
+  
+  #block-icecream-theme-main-menu ul li{
+    padding: 10px;
+    width:10%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    background-color: #E6DADA;
+    border: 2px solid #E6DADA;
+    transition: 500ms;
+  }
+  
+  #block-icecream-theme-main-menu ul li:hover{
+    color: #E6DADA;
+    background-color: #13171c;
+  
+  }
+  #block-icecream-theme-footer ul li{
+    display: inline-block;
+  }
+  
+  #block-icecream-theme-footer ul li a{
+    display: inline-block;
+    color: #efefef;
+  }

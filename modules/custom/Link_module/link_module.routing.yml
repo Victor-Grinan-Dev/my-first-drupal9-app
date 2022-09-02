@@ -1,0 +1,7 @@
+link_module.link_mod:
+  path: "/link/page"
+  defaults:
+    _controller: '\Drupal\link_module\Controller\linkController::link'
+    _title: "link controller custom made"
+  requirements:
+    _permission: "access content"

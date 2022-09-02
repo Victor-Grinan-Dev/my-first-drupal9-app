@@ -1,0 +1,7 @@
+first_module.first:
+  path: "/page/links"
+  defaults:
+    _controller: '\Drupal\customer_link\Controller\Customer_linkController::customer_link'
+    _title: "welcome to my first drupal 9 module"
+  requirements:
+    _permission: "access content"
