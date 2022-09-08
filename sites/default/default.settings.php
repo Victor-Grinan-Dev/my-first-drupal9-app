@@ -794,3 +794,10 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
+$config['environment_indicator.indicator']['bg_color'] = '#BB0066';
+
+$config['environment_indicator.indicator']['fg_color'] = '#FFFFBB';
+
+$config['environment_indicator.indicator']['name'] = 'Local';
+
+$config['environment_indicator.indicator']['block'] = TRUE;
