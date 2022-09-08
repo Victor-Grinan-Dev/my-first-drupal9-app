@@ -1,10 +1,12 @@
 {
-  "name": "themes",
+  "name": "react_drupal",
   "version": "1.0.0",
-  "description": "Themes allow you to change the look and feel of your Drupal site. You can use themes contributed by others or create your own.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build":"NODE_ENV=production webpack"
   },
   "keywords": [],
   "author": "",

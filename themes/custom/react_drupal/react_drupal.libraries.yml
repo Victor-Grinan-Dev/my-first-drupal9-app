@@ -1,0 +1,4 @@
+react_app:
+  version: VERSION
+  js:
+    js/dist/main.main.js: { minified: true }
