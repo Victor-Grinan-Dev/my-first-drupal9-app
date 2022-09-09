@@ -52,7 +52,12 @@
 #}
 <div id="page-wrapper">
   <div id="page">
-      <div id="react-app" class="block">react app will load here under header </div>
+  <div class="section layout-container clearfix">
+        {{ page.secondary_menu }}
+        {{ page.header }}
+        {{ page.primary_menu }}
+      </div>
+    <div id="react-app" class="block">react app will load here under header </div>
    
   </div>
 </div>
