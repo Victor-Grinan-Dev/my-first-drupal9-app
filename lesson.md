@@ -17,6 +17,18 @@ inside:
 create dist folder
 create src folder
 
+create an index.js file and write inside:
+
+```js
+import React from "react";
+import ReactDom from "react-dom";
+
+ReactDom.render(
+  <h1>hello react - drupal</h1>,
+  document.getElementById("react-app")
+);
+```
+
 ```shell
     npm install --save react react-dom prop-types
     npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader webpack

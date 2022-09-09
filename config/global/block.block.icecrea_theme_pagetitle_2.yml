@@ -1,0 +1,24 @@
+uuid: 48c8f115-1634-4ab2-9c09-3fe7570311c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - icecrea_theme
+id: icecrea_theme_pagetitle_2
+theme: icecrea_theme
+region: content
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'A page block'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: 'the victor content'

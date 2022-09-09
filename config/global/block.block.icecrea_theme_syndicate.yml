@@ -1,0 +1,23 @@
+uuid: 9831f5e5-2e3b-4eea-9b17-cad4a750d968
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - icecrea_theme
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: icecrea_theme_syndicate
+theme: icecrea_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

@@ -1,0 +1,26 @@
+uuid: 15934779-a68b-4d44-bed7-5e4d5a4d3cb8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - icecrea_theme
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: icecrea_theme_page_title
+theme: icecrea_theme
+region: content
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: 'pages something-something'

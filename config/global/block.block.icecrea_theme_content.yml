@@ -1,0 +1,22 @@
+uuid: 98633716-1c9d-4e55-8482-c571c20d6d50
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - icecrea_theme
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: icecrea_theme_content
+theme: icecrea_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

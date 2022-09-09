@@ -1,0 +1,25 @@
+uuid: 366e06bb-b241-4973-8549-5e7299c5b90c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:24c7a849-a239-4e32-b604-9de3c1b20f82'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: customsidebar
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'block_content:24c7a849-a239-4e32-b604-9de3c1b20f82'
+settings:
+  id: 'block_content:24c7a849-a239-4e32-b604-9de3c1b20f82'
+  label: 'custom side bar'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

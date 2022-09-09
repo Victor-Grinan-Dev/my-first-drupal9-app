@@ -1,0 +1,25 @@
+uuid: 9d584827-4203-484d-94ae-b8f8b5918d38
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:4bce13e2-2841-4170-bd74-653145d59ef1'
+  module:
+    - block_content
+  theme:
+    - icecream_theme
+id: icecream_theme_acustomblock
+theme: icecream_theme
+region: header
+weight: 5
+provider: null
+plugin: 'block_content:4bce13e2-2841-4170-bd74-653145d59ef1'
+settings:
+  id: 'block_content:4bce13e2-2841-4170-bd74-653145d59ef1'
+  label: 'a custom block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

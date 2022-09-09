@@ -1,0 +1,25 @@
+uuid: 7d1b3045-6b64-4a38-8cd2-648b70d9cb89
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - icecrea_theme
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: icecrea_theme_site_branding
+theme: icecrea_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

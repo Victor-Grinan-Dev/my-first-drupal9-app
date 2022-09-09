@@ -1,0 +1,23 @@
+uuid: 987aea4e-75c6-4643-994f-68052fc1c77a
+langcode: en
+status: false
+dependencies:
+  module:
+    - book
+  theme:
+    - icecream_theme
+_core:
+  default_config_hash: ihOiiwS6o3R7KIEOsDQ2tLrmz3MGNVRAy95rMT_T3Gs
+id: icecream_theme_book_navigation
+theme: icecream_theme
+region: header
+weight: -1
+provider: null
+plugin: book_navigation
+settings:
+  id: book_navigation
+  label: 'Book navigation'
+  label_display: visible
+  provider: book
+  block_mode: 'book pages'
+visibility: {  }

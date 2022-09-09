@@ -1,0 +1,24 @@
+uuid: 939457f6-7c41-48ec-8706-4f46c566a445
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - icecream_theme
+id: icecream_theme_pagetitle_2
+theme: icecream_theme
+region: header
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'A page block'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: 'the victor content'

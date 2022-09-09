@@ -1,0 +1,18 @@
+uuid: d3510b7b-74e8-4d9c-aba1-13553d03f8d6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - react_drupal
+id: pagetitle_4
+theme: react_drupal
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

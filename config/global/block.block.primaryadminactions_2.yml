@@ -1,0 +1,18 @@
+uuid: 07996074-ee18-440c-b951-a39dcf65b0f1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - react_drupal
+id: primaryadminactions_2
+theme: react_drupal
+region: sidebar_second
+weight: 0
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

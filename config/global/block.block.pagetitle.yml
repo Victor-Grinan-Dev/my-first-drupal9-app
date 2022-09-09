@@ -1,0 +1,18 @@
+uuid: b62bf87c-fc2f-4fc4-8c45-1f2062f7deca
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tara
+id: pagetitle
+theme: tara
+region: site_branding
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'new victor title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 5b5d89a9-94c7-4d16-9034-13b69b1f203c
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:24c7a849-a239-4e32-b604-9de3c1b20f82'
+  module:
+    - block_content
+  theme:
+    - icecream_theme
+id: icecream_theme_customsidebar
+theme: icecream_theme
+region: header
+weight: 6
+provider: null
+plugin: 'block_content:24c7a849-a239-4e32-b604-9de3c1b20f82'
+settings:
+  id: 'block_content:24c7a849-a239-4e32-b604-9de3c1b20f82'
+  label: 'custom side bar'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

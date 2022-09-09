@@ -1,0 +1,23 @@
+uuid: ccb9d6c0-5290-42f6-af95-f9a33a4096c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - book
+  theme:
+    - icecrea_theme
+_core:
+  default_config_hash: ihOiiwS6o3R7KIEOsDQ2tLrmz3MGNVRAy95rMT_T3Gs
+id: icecrea_theme_book_navigation
+theme: icecrea_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: book_navigation
+settings:
+  id: book_navigation
+  label: 'Book navigation'
+  label_display: visible
+  provider: book
+  block_mode: 'book pages'
+visibility: {  }

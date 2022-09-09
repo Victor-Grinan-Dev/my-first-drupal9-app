@@ -1,0 +1,22 @@
+uuid: cd7ab760-1ffd-44bd-a0ed-7cc6171e1530
+langcode: en
+status: true
+dependencies:
+  theme:
+    - icecrea_theme
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: icecrea_theme_secondary_local_tasks
+theme: icecrea_theme
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

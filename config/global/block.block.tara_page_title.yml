@@ -1,0 +1,29 @@
+uuid: bea85fee-6c8b-48f4-a25e-c37b6f36ce0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - tara
+_core:
+  default_config_hash: Jg8sbWAHmaNnulBIV3mIX9nhLlnTmVey6atMumOhqtU
+id: tara_page_title
+theme: tara
+region: content
+weight: -10
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      page: page

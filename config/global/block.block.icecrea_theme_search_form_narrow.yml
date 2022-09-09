@@ -1,0 +1,23 @@
+uuid: 24b0b04d-9079-4728-8ad5-efcf2033f84a
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - icecrea_theme
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: icecrea_theme_search_form_narrow
+theme: icecrea_theme
+region: primary_menu
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

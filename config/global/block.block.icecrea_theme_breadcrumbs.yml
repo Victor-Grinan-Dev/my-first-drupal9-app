@@ -1,0 +1,22 @@
+uuid: b237ce81-56d3-488b-9126-673e58cccfc5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - icecrea_theme
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: icecrea_theme_breadcrumbs
+theme: icecrea_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

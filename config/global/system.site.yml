@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: c0db76af-9a55-4b41-88aa-23f713acf714
+name: 'Victor Grinan App'
+mail: admin@example.com
+slogan: 'A world full of pizza!'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

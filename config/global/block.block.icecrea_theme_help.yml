@@ -1,0 +1,22 @@
+uuid: 4c6ecb6e-8c47-48b9-824c-0bfd30d728ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - icecrea_theme
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: icecrea_theme_help
+theme: icecrea_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
