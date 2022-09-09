@@ -1,7 +1,8 @@
 import React from 'react';
-import {ReactDom} from 'react-dom';
+import  ReactDom  from 'react-dom';
+import Pokemon from './Pokemon'
 
 ReactDom.render(
-    <h1>hello react - drupal</h1>,
+    <Pokemon />,
     document.getElementById('react-app')
 );

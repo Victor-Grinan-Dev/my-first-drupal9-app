@@ -2,7 +2,7 @@ name: React Drupal
 type: theme
 description: "A react app inside my drupal"
 base theme: bartik
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^9
 
 libraries:
   - react_drupal/react_app
